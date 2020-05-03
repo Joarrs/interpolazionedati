@@ -11,11 +11,8 @@ Siccome nel codice non si fa mai riferimento al numero di frame è possibile con
 
 ### Come impostare i dati
 
-All'interno del progetto si trova un file denominato 'dati.xls' all'interno del quale troviamo 4 colonne (in sequenza t_Action, x_Action,
-t_Vicon, x_Vicon) che rappresentano corrispettivamente il tempo (t_Action) e le coordinate (x_Action) del marker analizzando il video della
-videocamera con meno FPS ed il tempo (t_Vicon) e coordinate (x_Vicon) del marker analizzando il video a maggiori FPS.
-Per impostare i dati incollare al di sotto di ogni indicazione i propri dati (quindi nella colonna di t_Action i tempi dettati dalla
-videocamera con meno FPS e così via)
+All'interno del progetto si trova un file denominato 'dati.xls' all'interno del quale troviamo 4 colonne che rappresentano corrispettivamente il tempo e le coordinate del marker analizzando il video della videocamera con meno FPS ed il tempo e coordinate del marker analizzando il video a maggiori FPS.
+Per impostare i dati incollare al di sotto di ogni indicazione i propri dati 
 
 ### Come funziona il programma
 Il programma mette in relazione i dati della videocamera con maggiori FPS ai tempi dettati dalla videocamera con meno FPS. Va quindi a 
